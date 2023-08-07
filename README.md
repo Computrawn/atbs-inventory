@@ -20,11 +20,11 @@ Total number of items: 62
 \#inventory.py  
 stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}  
 def displayInventory(inventory):  
-        print("Inventory:")  
-        item_total = 0  
-        for k, v in inventory.items():  
-                # FILL THIS PART IN  
-        print("Total number of items: " + str(item_total))  
+&nbsp;&nbsp;&nbsp;&nbsp;print("Inventory:")  
+&nbsp;&nbsp;&nbsp;&nbsp;item_total = 0  
+&nbsp;&nbsp;&nbsp;&nbsp;for k, v in inventory.items():  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# FILL THIS PART IN  
+&nbsp;&nbsp;&nbsp;&nbsp;print("Total number of items: " + str(item_total))  
 displayInventory(stuff)
 
 **Excerpt From Automate the Boring Stuff with Python: Practical Programming for Total Beginners, 2nd Edition  
