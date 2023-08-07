@@ -21,7 +21,11 @@ stuff = {
 }
 
 
-def display_inventory(inventory):
+def main() -> None:
+    display_inventory(stuff)
+
+
+def display_inventory(inventory: dict) -> None:
     print("Inventory:")
     item_total = 0
     for k, v in sorted(inventory.items()):
@@ -34,4 +38,5 @@ def display_inventory(inventory):
     print(f"Total number of items: {item_total}")
 
 
-display_inventory(stuff)
+if __name__ == "__main__":
+    main()
