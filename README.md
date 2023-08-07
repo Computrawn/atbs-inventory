@@ -16,15 +16,15 @@ Inventory:
 1 dagger  
 Total number of items: 62  
 
-Hint: You can use a for loop to loop through all the keys in a dictionary.
+**Hint:** You can use a for loop to loop through all the keys in a dictionary.  
 \#inventory.py  
 stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}  
 def displayInventory(inventory):  
-    print("Inventory:")  
-    item_total = 0  
-    for k, v in inventory.items():  
-        # FILL THIS PART IN  
-    print("Total number of items: " + str(item_total))  
+        print("Inventory:")  
+        item_total = 0  
+        for k, v in inventory.items():  
+                # FILL THIS PART IN  
+        print("Total number of items: " + str(item_total))  
 displayInventory(stuff)
 
 **Excerpt From Automate the Boring Stuff with Python: Practical Programming for Total Beginners, 2nd Edition  
